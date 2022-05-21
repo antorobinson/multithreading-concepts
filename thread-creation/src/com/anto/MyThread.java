@@ -1,6 +1,6 @@
 package com.anto;
 
-class MyThread extends Thread {
+public class MyThread extends Thread {
 
 	@Override
 	public void run() {

@@ -30,18 +30,3 @@ public class ThreadCreation {
 		runnableThread3.start();
 	}
 }
-
-class MyThread extends Thread {
-
-	@Override
-	public void run() {
-		System.out.println(Thread.currentThread().getName()+" : Inside thread class");
-	}
-}
-
-class MyRunnableThread implements Runnable {
-
-	public void run() {
-		System.out.println(Thread.currentThread().getName()+" : Inside runnable thread");
-	}
-}

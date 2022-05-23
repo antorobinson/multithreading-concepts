@@ -1,5 +1,9 @@
 package com.anto;
 
+/**
+ * @author Sahaya Anto Robinson
+ *
+ */
 public class MemoryConsistencyIssue {
 
 	private static boolean sayHello = false;

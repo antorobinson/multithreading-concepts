@@ -1,5 +1,9 @@
 package com.anto;
 
+/**
+ * @author Sahaya Anto Robinson
+ *
+ */
 public class Counter {
 	private int count;
 	
